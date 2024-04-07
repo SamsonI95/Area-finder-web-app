@@ -10,6 +10,7 @@ import HomePage from "./Components/Pages/HomePage";
 
 //Style
 import "./App.css";
+import ReviewPage from "./Components/Pages/ReviewPage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/reviews" element={<ReviewPage/>}/>
         </Routes>
       </Router>
     </>

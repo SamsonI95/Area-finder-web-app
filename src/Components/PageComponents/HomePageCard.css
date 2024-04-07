@@ -1,0 +1,25 @@
+.scroll-fade {
+  position: relative;
+  overflow-y: hidden;
+}
+
+.scroll-fade::before,
+.scroll-fade::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 20rem; /* Adjust this height as needed */
+  pointer-events: none;
+  background: linear-gradient(rgba(255, 255, 255, 0), #fafcfd);
+}
+
+.scroll-fade::before {
+  top: 0;
+  background: linear-gradient(#fafcfd, rgba(255, 255, 255, 0));
+}
+
+.scroll-fade::after {
+  bottom: 0;
+  background: linear-gradient(rgba(255, 255, 255, 0), #fafcfd);
+}
