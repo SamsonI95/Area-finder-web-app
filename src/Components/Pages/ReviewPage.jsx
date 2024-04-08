@@ -109,22 +109,22 @@ const ReviewPage = () => {
           <div className="grid grid-cols-3 lg:grid-cols-2 w-fit gap-2 lg:gap-4 lg:-translate-y-[4rem] order-first lg:order-last mb-[2rem] lg:mb-0">
             {/* Desktop Images */}
             <img
-              src="public/Placeholder Image.png"
+              src="/Placeholder Image.png"
               alt="location2"
               className="rounded-lg hidden lg:block"
             />
             <img
-              src="public/Placeholder Image (1).png"
+              src="/Placeholder Image (1).png"
               alt="location3"
               className="rounded-lg hidden lg:block"
             />
             <img
-              src="public/Placeholder Image (2).png"
+              src="/Placeholder Image (2).png"
               alt="location4"
               className="rounded-lg hidden lg:block"
             />
             <img
-              src="public/Frame 46.png"
+              src="/Frame 46.png"
               alt="location1"
               className="hidden lg:block"
             />
