@@ -23,13 +23,13 @@ const NavBar = () => {
       >
         <div>
           <Link to="/home">
-            <img src="public/ic_logo.png" alt="logo" />
+            <img src="/ic_logo.png" alt="logo" />
           </Link>
         </div>
         <div className="flex items-center space-x-3">
           <h3>Welcome!</h3>
           <img
-            src="public/Rectangle 32.png"
+            src="/Rectangle 32.png"
             alt="user"
             className="rounded-full"
           />
