@@ -1,6 +1,6 @@
 [
   {
-    "image": "public/Ellipse 1.png",
+    "image": "/Ellipse 1.png",
     "name": "James T.",
     "date": "5 months ago",
     "location": "Ikate, Lekki",
@@ -12,7 +12,7 @@
     "problem": "network"
   },
   {
-    "image": "public/Ellipse 1.png",
+    "image": "/Ellipse 1.png",
     "name": "James T.",
     "date": "5 months ago",
     "location": "Ikate, Lekki",
@@ -24,7 +24,7 @@
     "problem": "traffic"
   },
   {
-    "image": "public/Ellipse 1.png",
+    "image": "/Ellipse 1.png",
     "name": "James T.",
     "date": "5 months ago",
     "location": "Ikate, Lekki",
@@ -36,7 +36,7 @@
     "problem": "power"
   },
   {
-    "image": "public/Ellipse 1.png",
+    "image": "/Ellipse 1.png",
     "name": "James T.",
     "date": "5 months ago",
     "location": "Ikate, Lekki",
@@ -48,7 +48,7 @@
     "problem": "water"
   },
   {
-    "image": "public/Ellipse 1.png",
+    "image": "/Ellipse 1.png",
     "name": "James T.",
     "date": "5 months ago",
     "location": "Ikate, Lekki",
@@ -60,7 +60,7 @@
     "problem": "network"
   },
   {
-    "image": "public/Ellipse 1.png",
+    "image": "/Ellipse 1.png",
     "name": "James T.",
     "date": "5 months ago",
     "location": "Ikate, Lekki",
@@ -72,7 +72,7 @@
     "problem": "traffic"
   },
   {
-    "image": "public/Ellipse 1.png",
+    "image": "/Ellipse 1.png",
     "name": "James T.",
     "date": "5 months ago",
     "location": "Ikate, Lekki",
@@ -84,7 +84,7 @@
     "problem": "power"
   },
   {
-    "image": "public/Ellipse 1.png",
+    "image": "/Ellipse 1.png",
     "name": "James T.",
     "date": "5 months ago",
     "location": "Ikate, Lekki",
