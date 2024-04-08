@@ -7,18 +7,20 @@ import NavBar from "./Components/Reusables/NavBar";
 
 //Pages
 import HomePage from "./Components/Pages/HomePage";
+import ReviewPage from "./Components/Pages/ReviewPage";
 
 //Style
 import "./App.css";
-import ReviewPage from "./Components/Pages/ReviewPage";
 
 function App() {
+  
   return (
     <>
       <Router>
         <NavBar />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/home" element={<HomePage />} />
           <Route path="/reviews" element={<ReviewPage/>}/>
         </Routes>
       </Router>

@@ -5,23 +5,22 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 const StarRating = ({ ratingNumber }) => {
   const renderStars = () => {
-    const stars = [];
     const roundedRating = Math.round(ratingNumber); // Round to the nearest whole number
 
-    for (let i = 1; i <= 5; i++) {
-      stars.push(
+    return (
+      <div className="flex items-center">
+        {/* Display one solid star */}
         <FontAwesomeIcon
-          key={i}
-          icon={i <= roundedRating ? faStar : ["far", "star"]} // Solid star if i is less than or equal to the rating, otherwise, regular (outlined) star
-          className="text-yellow-400 text-sm"
+          icon={faStar}
+          className="text-yellow-400 text-sm mr-1"
         />
-      );
-    }
-
-    return stars;
+        {/* Display the rating number */}
+        <span className="text-sm">{roundedRating.toFixed(1)}</span>
+      </div>
+    );
   };
 
-  return <div className="flex">{renderStars()}</div>;
+  return <div>{renderStars()}</div>;
 };
 
 export default StarRating;
